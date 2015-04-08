@@ -2,5 +2,35 @@ body {
 	background: #f0f;
 }
 img {
-			width: 320px;
+	width: 320px;
+}
+h1{
+
+}
+h2{
+text-align: center;
+
+}
+h3{
+	text-transform: uppercase;
+}
+h4{
+text-indent: 50px;
+line-height: 0px;
+}
+h5{
+text-transform: bold;
+}
+h6{
+	font-size: 15px;
+}
+p{
+text-indent: 50px;
+line-height: 10px;
+}
+ul{
+	text-indent: 60px;
+}
+li{
+	text-indent: 60px;
 }
