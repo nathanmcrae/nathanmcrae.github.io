@@ -4,6 +4,9 @@ body {
 img {
 	width: 320px;
 }
+table, tr, td{
+    border-right: solid;
+}
 h1{
 
 }
@@ -29,8 +32,8 @@ text-indent: 50px;
 line-height: 10px;
 }
 ul{
-	text-indent: 60px;
+	margin-left: 50px;
 }
 li{
-	text-indent: 60px;
+
 }
