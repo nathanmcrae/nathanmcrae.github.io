@@ -4,7 +4,7 @@ body {
 img {
 	width: 320px;
 }
-table, tr, td{
+td{
     border-right: solid;
 }
 h1{
@@ -27,9 +27,12 @@ text-transform: bold;
 h6{
 	font-size: 15px;
 }
+
+h7{
+	font-size: 15px;
+}
 p{
 text-indent: 50px;
-line-height: 10px;
 }
 ul{
 	margin-left: 50px;
