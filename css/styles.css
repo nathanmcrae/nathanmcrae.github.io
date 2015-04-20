@@ -1,3 +1,24 @@
+.bio .dropcap{
+font-size: 5em;
+background: blue;
+padding: .5em;
+color: #fff;
+margin: .25em;
+float: left;
+}
+
+.bio p, li{
+	font-family: 'Droid Serif', serif;
+}
+
+.bio .container {
+	margin: 0 auto;
+	width: 50%
+}
+
+.bio h1, h2{font-family: 'Droid Serif', serif;
+text-transform: uppercase;
+}
 body {
 	background: #f0f;
 }
