@@ -19,43 +19,44 @@ float: left;
 .bio h1, h2{font-family: 'Droid Serif', serif;
 text-transform: uppercase;
 }
-body {
+
+.home body {
 	background: #f0f;
 }
-img {
+.home img {
 	width: 320px;
 }
-td{
+.home td{
     border-right: solid;
 }
 h1{
 
 }
-h2{
+.home h2{
 text-align: center;
 
 }
-h3{
+.home h3{
 	text-transform: uppercase;
 }
-h4{
+.home h4{
 text-indent: 50px;
 line-height: 0px;
 }
-h5{
+.home h5{
 text-transform: bold;
 }
-h6{
+.home h6{
 	font-size: 15px;
 }
 
-h7{
+.home h7{
 	font-size: 15px;
 }
-p{
+.home p{
 text-indent: 50px;
 }
-ul{
+.home ul{
 	margin-left: 50px;
 }
 li{
