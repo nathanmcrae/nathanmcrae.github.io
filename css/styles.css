@@ -1,3 +1,7 @@
+
+@media screen and (max-width: 480px) {
+
+}
 .home .dropcap{
 font-size: 1em;
 background: blue;
@@ -21,7 +25,7 @@ text-transform: uppercase;
 }
 
 body {
-	background: yellow;
+	background: teal;
 }
 .home img {
 	width: 320px;
@@ -87,6 +91,7 @@ float: left;
 width: 100%;
 background-color:#FFFF00;
 padding-left:2em;
+max-width: 100%
 }
 /* adding margin-left will move the UnorderedList inside wrapper */
 #main ul {
