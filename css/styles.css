@@ -1,7 +1,3 @@
-
-@media screen and (max-width: 480px) {
-
-}
 .home .dropcap{
 font-size: 1em;
 background: blue;
@@ -10,14 +6,17 @@ color: #fff;
 margin: .25em;
 float: left;
 }
-
+.bio{
+	max-width: 100%;
+	margin: auto;
+}
 .bio p, li{
 	font-family: 'Droid Serif', serif;
 }
 
 .bio .container {
 	margin: 0 auto;
-	width: 50%
+	width: 70%
 }
 
 .bio h1, h2{font-family: 'Droid Serif', serif;
@@ -49,18 +48,18 @@ p {
 line-height:1.25em;
 margin-bottom: 1em;
 }
-/* change the heading1 to be navy color */
+
 h1 {
 color: navy;
 }
-/* the main shell holding all div tags */
+
 #wrapper {
 width: 755px;
 position:relative;
 margin: auto;
 background-color:#0FF;
 }
-/* top navigation div */
+
 #navcontainer ul {
 background-color: #036;
 float: left;
@@ -80,10 +79,10 @@ border-right: 1px solid #fff;
 color: #fff;
 }
 
-#navcontainer ul li a:hover { /* controls the over or hover state of rollover */
+#navcontainer ul li a:hover { 
 background-color: #369;
 }
-#navcontainer ul li #current { /* sets the link of the active page tab color to be different */
+#navcontainer ul li #current { 
 background-color: #369;
 }
 #main {
@@ -93,41 +92,47 @@ background-color:#FFFF00;
 padding-left:2em;
 max-width: 100%
 }
-/* adding margin-left will move the UnorderedList inside wrapper */
+
 #main ul {
 margin-left:40px;
 }
-/* float picture left, add margin to keep text away from image, add width */
+
 #pictureL {
 width: 300px;
 float:left;
 margin:10px;
 }
-/* float picture right, add margin to keep text away from image, add width */
+
 #pictureR {
 width: 50%;
 float:right;
 margin:10px;
 }
-/* set text color to white, background color to #036, position to absolute */
-/* bottom postion to 0px, and width to 100% */
+
 #footer {
 color:#FFF;
 background-color: #036;
 bottom: 0px;
 width: 100%;
-padding-right: 32px; /* fits content to match navcontainer width */
+padding-right: 32px; 
+margin: auto;
 }
-/* align the text to center, and margin 0 */
+
+
 #footer p {
 text-align:center;
-margin:0;
+margin:0 auto;
 }
-/* sets the anchors in the footer id to be white and no underline */
+
 #footer a {
 color:#FFF;
 text-decoration:none;
 }
 #footer a:hover {
 color:#369;
+}
+@media screen and (max-width: 480px) {
+body{
+	background: teal;
+}
 }
